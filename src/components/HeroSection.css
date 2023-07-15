@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/open-sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .hero{
+    height: 100vh;
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: -50px;
+  }
+  
+  .pic{
+    height: 700px;
+    width:  100%; 
+    filter: brightness(70%); 
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+  
+  .about{
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  .text h1 {
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+
+
+
+
+
